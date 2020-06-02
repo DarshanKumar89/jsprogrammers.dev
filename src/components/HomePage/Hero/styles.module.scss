@@ -1,0 +1,30 @@
+@import "../../../styles/setup/mixins";
+
+.hero {
+  background-color: var(--color-secondary-dark);
+
+  .contents {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 50px 0 60px 0;
+
+    .heroText {
+      color: var(--font-color-unselected);
+      font-size: 2em;
+      padding: 7px 0;
+      font-family: "Lato", sans-serif;
+
+      span {
+        color: var(--font-color-dark);
+        font-family: "Lato", sans-serif;
+      }
+
+      @include respond-below(sm) {
+        font-size: 1.8em;
+        line-height: 50px;
+      }
+    }
+  }
+}

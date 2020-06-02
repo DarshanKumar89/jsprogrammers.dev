@@ -1,0 +1,34 @@
+@import '../../styles/setup/mixins';
+
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+
+  h1 {
+    color: var(--font-color); 
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  .excerpt {
+    margin: 10px 0;
+    padding: 0;
+    font-size: 1.2rem;
+    opacity: 0.7;
+    // letter-spacing: 0.01em;
+    font-family: 'Lato', sans-serif;
+
+    @include respond-below(md) {
+      padding: 0px;
+    }
+  }
+
+  .date-label {
+      opacity: 0.5;
+      padding-top: 10px;
+  }
+}
