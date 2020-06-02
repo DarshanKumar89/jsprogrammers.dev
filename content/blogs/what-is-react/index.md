@@ -11,7 +11,7 @@ tags:
 title: "What is React?"
 description: The network layer of a Vue.js application is the entry point of all the external data into your application. HTTP clients, which makes this possible need to be designed to be efficient and should be able to handle all the edge cases in communicating with external APIs.
 cover_image: ./cover.png
-published: true
+published: false
 ---
 
 Modern web apps highly rely on network communication with API servers and external services. From real-time data to static assets, everything is done through the network connection. It is important to design the network interface layer or the **HTTP client** which helps your application to call the API endpoints to be efficient and robust. In this article we'll discuss ways to design the HTTP clients and making network requests in your Vue.js application, considering some of the best practices and techniques.

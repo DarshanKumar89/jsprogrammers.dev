@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 import styles from './styles.module.scss';
 
 function Footer() {
-    return (
-        <footer>
-            <p>Musthaq Ahamad &copy; {new Date().getFullYear()}</p>
-        </footer>
-    )
+	return (
+		<footer>
+			<p>Darshan Kumar @darshaneldorado &copy; {new Date().getFullYear()}</p>
+		</footer>
+	);
 }
 
-export default Footer
+export default Footer;
